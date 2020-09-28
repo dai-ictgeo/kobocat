@@ -464,7 +464,7 @@ CELERY_TASK_DEFAULT_QUEUE = "kobocat_queue"
 ZIP_EXPORT_COUNTDOWN = 24 * 60 * 60
 
 # default content length for submission requests
-DEFAULT_CONTENT_LENGTH = 10000000
+DEFAULT_CONTENT_LENGTH = 30 * 1048576
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 NOSE_ARGS = ['--with-fixture-bundling']
